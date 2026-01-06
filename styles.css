@@ -1,0 +1,54 @@
+header {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+body {
+  margin: 0;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: black;
+}
+nav ul {
+  list-style: disc;
+  padding: 0;
+}
+
+nav a {
+  color: cyan;
+  text-decoration: none;
+}
+section {
+  background-color: #f7ecd9;
+  max-width: calc(100% - 40px);
+  margin: 40px auto;
+  padding: 16px;
+  border: 8px solid hotpink;
+}
+
+#what {
+  border-color: magenta;
+}
+
+#how {
+  border-color: cyan;
+}
+
+#why {
+  border-color: orange;
+}
+section h2 {
+  margin-top: 0;
+  font-size: 36px;
+}
+section p {
+  line-height: 1;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+main {
+  padding-bottom: 40px;
+}
+
