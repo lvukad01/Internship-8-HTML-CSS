@@ -2,7 +2,12 @@ header {
   background: black;
   color: white;
   text-align: center;
-  padding: 30px 0;
+  padding: 0;
+  margin-top:0;
+}
+header h1 {
+  margin-top: 0;
+  font-size: 48px;
 }
 body {
   margin: 0;
@@ -11,21 +16,38 @@ body {
   background-color: black;
   color: black;
 }
-nav ul {
-  list-style: disc;
-  padding: 0;
+nav {
+  text-align: center; 
+  margin-bottom: 25px;
 }
-
+summary {
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+nav ul {
+  display: inline-block; 
+  list-style: disc;
+  padding-left: 20px; 
+  text-align: left;    
+  margin: 0;           
+  font-size: 16px;
+  color: white;
+}
 nav a {
-  color: cyan;
+  color: #800080;
   text-decoration: none;
+}
+nav a:visited{
+    color:cyan;
 }
 section {
   background-color: #f7ecd9;
   max-width: calc(100% - 40px);
-  margin: 40px auto;
-  padding: 16px;
-  border: 8px solid hotpink;
+  margin: 7px auto;
+  padding: 12px;
+  border: 10px solid hotpink;
 }
 
 #what {
@@ -44,11 +66,20 @@ section h2 {
   font-size: 36px;
 }
 section p {
-  line-height: 1;
+  line-height: 1.2;
   font-size: 24px;
   margin-bottom: 0;
 }
 main {
   padding-bottom: 40px;
 }
-
+hr {
+  border: 0;
+  height: 2px;
+  background-color: rgb(239, 156, 0);
+  margin: 5px 0;
+}
+code{
+    font-size: 20px;
+    margin:0%;
+}
