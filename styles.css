@@ -35,13 +35,7 @@ nav ul {
   font-size: 16px;
   color: white;
 }
-nav a {
-  color: #800080;
-  text-decoration: none;
-}
-nav a:visited{
-    color:cyan;
-}
+
 section {
   background-color: #f7ecd9;
   max-width: calc(100% - 40px);
@@ -49,7 +43,9 @@ section {
   padding: 12px;
   border: 10px solid hotpink;
 }
-
+a:active{
+    color:cyan;
+}
 #what {
   border-color: magenta;
 }
@@ -82,4 +78,14 @@ hr {
 code{
     font-size: 20px;
     margin:0%;
+}
+footer{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+.marquee {
+  font-size: 12px;
+  color: #aaa;
+  font-style: italic;
 }
